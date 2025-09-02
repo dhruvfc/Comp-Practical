@@ -5,7 +5,7 @@ def Armstrong(n):
         l=len(str(n))
         while n>0:
             r=n%10
-            r**1
+            r**=1
             a+=r
             n//=10
         if a==n1:
