@@ -13,6 +13,6 @@ def Armstrong(n):
         else:
             return 'Not Armstrong'
     else:
-        return 'Error'
+        return 'Not Armstrong'
 n = int(input('Enter a Number: '))
 print(Armstrong(n))
